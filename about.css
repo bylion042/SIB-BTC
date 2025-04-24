@@ -50,7 +50,7 @@
     border: 1px solid #333;
     padding: 20px;
     text-align: left;
-    font-size: 20px;
+    /* font-size: 20px; */
   }
   
   .info-table th {

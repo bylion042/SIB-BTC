@@ -135,7 +135,7 @@
     width: 60px;
     height: 60px;
     border: 10px solid transparent;
-    border-top: 10px solid #fff;
+    border-top: 10px solid #00ffcc;
     border-radius: 50%;
     animation: pulse-spin 1s ease-in-out infinite;
     box-shadow: 0 0 20px #ffffff;
