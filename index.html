@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" href="./img/logo.png" type="image/png">
+  <title>Should I Buy Bitcoin Today?</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <!-- Spinner -->
+  <div id="loader" class="spinner">
+    <div class="spinner-inner">
+      <div class="spinner-circle"></div>
+      <p>Loading market vibes ...</p>
+    </div>
+  </div>
+
+  <img src="./img/logo.png" alt="Bitcoin Logo" class="btc-logo"/>
+
+
+  <main class="wrapper">
+    <h1 class="title">Should I Buy Bitcoin Today?</h1>
+
+    <div class="info">
+      <div class="data" id="btcRate">📈 Loading BTC price...</div>
+      <div class="data" id="greedIndex">🧠 Loading Fear & Greed Index...</div>
+    </div>
+
+    <div class="answer" id="answer"></div>
+
+    <button class="ask-btn" onclick="fetchData()">Ask again</button>
+
+    <div class="gif-wrapper">
+      <img id="gif" class="gif" src="" alt="Reaction GIF" />
+    </div>
+
+    <div class="question">
+        <a href="about.html">What this website does</a>
+      </div>      
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
