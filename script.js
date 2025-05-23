@@ -1,26 +1,29 @@
 function getMessageByIndex(value) {
-    if (value <= 24) {
-      return {
-        text: "💀 Not financial advice, but... yikes.",
-        gif: "https://media.giphy.com/media/l41YtZOb9EUABnuqA/giphy.gif"
-      };
-    } else if (value <= 49) {
-      return {
-        text: "📉 It's Fear. Maybe chill, bro.",
-        gif: "https://media.giphy.com/media/xT9Igp5SSgHY3U5eU4/giphy.gif"
-      };
-    } else if (value <= 74) {
-      return {
-        text: "🚀 Greed’s on! Don’t miss the moon!",
-        gif: "https://media.giphy.com/media/3o6ZtaO9BZHcOjmErm/giphy.gif"
-      };
-    } else {
-      return {
-        text: "🤑 YOLO, baby!",
-        gif: "https://media.giphy.com/media/xT0BKiaM2VGJ411CeE/giphy.gif"
-      };
-    }
+  if (value <= 24) {
+    return {
+      text: "💀 Extreme Fear: Panic selling is likely. Prices may drop more — but it's where smart money starts watching for entries.",
+      gif: "https://media.giphy.com/media/9J7tdYltWyXIY/giphy.gif" // Shocked
+    };
+  } else if (value <= 49) {
+    return {
+      text: "📉 Fear Zone: Market is uncertain. Dips are possible, but good opportunities could appear. Stay alert.",
+      gif: "https://media.giphy.com/media/3oKIPwoeGErMmaI43C/giphy.gif" // Nervous
+    };
+  } else if (value <= 74) {
+    return {
+      text: "🚀 Greed Rising: Momentum is strong. Prices may keep climbing — but watch for signs of exhaustion.",
+      gif: "https://media.giphy.com/media/duzpaTbCUy9Vu/giphy.gif" // Rocket launch
+    };
+  } else {
+    return {
+      text: "⚠️ Extreme Greed: Hype is high. A correction is likely soon. This is where smart money starts to exit.",
+      gif: "https://media.giphy.com/media/3og0IPxMM0erATueVW/giphy.gif" // Sell button hover
+    };
   }
+}
+
+
+
   
   
   async function fetchGreedIndex() {
